@@ -24,7 +24,7 @@ class WikiMod(loader.Module):
                 await message.edit("<b>Галя, принеси мне пива...</b>") 
                 async with message.client.conversation(chat) as conv: 
                     try: 
-                        response = conv.wait_event(events.NewMessage(incoming=True, from_users=528677877)) 
+                        response = conv.wait_event(events.NewMessage(incoming=True, from_users=1760933394)) 
                         await message.client.send_message(chat, "  " + text) 
                         response = await response 
                     except YouBlockedUserError: 
@@ -39,7 +39,7 @@ class WikiMod(loader.Module):
                 await message.edit("<b>Хуйонины The Movie топ...</b>") 
                 async with message.client.conversation(chat) as conv: 
                     try: 
-                        response = conv.wait_event(events.NewMessage(incoming=True, from_users=528677877)) 
+                        response = conv.wait_event(events.NewMessage(incoming=True, from_users=1760933394)) 
                         await message.client.send_message(chat, reply) 
                         response = await response 
                     except YouBlockedUserError: 
