@@ -5,9 +5,9 @@ from asyncio.exceptions import TimeoutError
  
  
 def register(cb): 
-    cb(Asdalhosh()) 
+    cb(AsdalhoshMod()) 
  
-class Asdalhosh(loader.Module): 
+class AsdalhoshMod(loader.Module): 
     """Асдалхощ)0)) """ 
     strings = {'name': 'asdalhosh'} 
  
